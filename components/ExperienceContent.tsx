@@ -1,11 +1,14 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
 
 interface ExperienceProps {
   experiences: Experience[];
+  handleModalOpen: (exp: Experience) => void;
 }
 
-const ExperienceContent: React.FC<ExperienceProps> = ({ experiences }) => {
+const ExperienceContent: React.FC<ExperienceProps> = ({
+  experiences,
+  handleModalOpen,
+}) => {
   return (
     <div>
       {experiences.map((exp: Experience, index: number) => (
@@ -20,11 +23,14 @@ const ExperienceContent: React.FC<ExperienceProps> = ({ experiences }) => {
             {exp.title} at {exp.company}
           </h3>
           <p className="text-gray-500 text-sm">
-            {exp.period} · {exp.type}
+            {exp.period} &bull; {exp.models} &bull; {exp.type}
           </p>
-          <Link href="" className="text-blue-600 text-sm font-medium">
-            {exp.linkText} {">"}
-          </Link>
+          <button
+            onClick={() => handleModalOpen(exp)}
+            className="text-blue-600 text-sm font-medium cursor-pointer"
+          >
+            {exp.linkText} {'>'}
+          </button>
         </div>
       ))}
     </div>

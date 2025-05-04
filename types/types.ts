@@ -13,9 +13,9 @@ interface Actions {
   getInTouch: string;
 }
 
-interface TechUsed {
+interface Technology {
   icon: string;
-  text: string;
+  name: string;
 }
 
 interface Experience {
@@ -23,9 +23,11 @@ interface Experience {
   company: string;
   period: string;
   type: string;
+  models: string;
   linkText: string;
   description: string;
-  techUsed: TechUsed[];
+  responsibilities: string[];
+  technologies: Technology[];
 }
 
 interface QuoteOfTheDay {
@@ -44,12 +46,22 @@ interface Stacks {
   frameworks: Stack[];
 }
 
-interface Project {
-  title: string;
-  description: string;
-  media: string;
+interface ProjectTechnology {
+  name: string;
+  icon: string;
 }
 
+interface Project {
+  title: string;
+  period: string;
+  summary: string;
+  goals: string;
+  takeaways: string;
+  media: string;
+  technologies: ProjectTechnology[];
+}
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface ResumeData {
   profile: Profile;
   actions: Actions;

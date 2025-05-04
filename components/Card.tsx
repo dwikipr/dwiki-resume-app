@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 
 type CardProps = {
   children: React.ReactNode;
@@ -9,7 +9,7 @@ type CardProps = {
 
 const Card: React.FC<CardProps> = ({
   children,
-  title = "Quote of the Day",
+  title = 'Quote of the Day',
 }) => {
   return (
     <div className="relative w-full min-h-40 h-full rounded-3xl bg-white/10 p-4 backdrop-blur-md shadow-lg border-2 border-white">
@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({
         {title}
       </div>
 
-      <div className="pt-12 pb-6 px-4 max-h-72 overflow-y-auto custom-scrollbar">
+      <div className="pt-12 pb-6 px-4 h-72 overflow-y-auto custom-scrollbar scroll-container">
         {children}
       </div>
     </div>

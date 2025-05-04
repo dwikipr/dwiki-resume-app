@@ -18,60 +18,148 @@
       "title": "Web Developer",
       "company": "Phincon",
       "period": "2021 - Now",
-      "type": "Hybrid · Fulltime",
+      "models": "Hybrid",
+      "type": "Fulltime",
       "linkText": "Check it out",
       "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
-      "techUsed": [
-        { "icon": "logos:javascript", "text": "JavaScript" },
-        { "icon": "logos:react", "text": "React" },
-        { "icon": "logos:nextjs-icon", "text": "Next.js" },
-        { "icon": "logos:nodejs-icon", "text": "Node.js" },
-        { "icon": "mdi:api", "text": "REST API" }
+      "responsibilities": [
+        "Developed and maintained scalable web applications for internal and external use.",
+        "Collaborated with UI/UX designers to implement responsive interfaces.",
+        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
+        "Optimized performance and improved loading times by implementing caching and code-splitting."
+      ],
+      "technologies": [
+        {
+          "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000",
+          "name": "React"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+          "name": "Next.js"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
+          "name": "Node.js"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=21888&format=png&color=000000",
+          "name": "REST API"
+        }
       ]
     },
     {
       "title": "Lead Dev",
       "company": "Mambix",
       "period": "2021 - 2025",
-      "type": "Hybrid · Fulltime",
+      "models": "Hybrid",
+      "type": "Fulltime",
       "linkText": "Check it out",
-      "description": "Led a team of developers in designing and implementing scalable backend systems, improving deployment processes, and mentoring junior engineers.",
-      "techUsed": [
-        { "icon": "logos:nodejs-icon", "text": "Node.js" },
-        { "icon": "logos:postgresql", "text": "PostgreSQL" },
-        { "icon": "logos:docker-icon", "text": "Docker" },
-        { "icon": "material-symbols:settings-ci-cd-outline", "text": "CI/CD" },
-        { "icon": "material-symbols:agile", "text": "Agile" }
+      "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
+      "responsibilities": [
+        "Developed and maintained scalable web applications for internal and external use.",
+        "Collaborated with UI/UX designers to implement responsive interfaces.",
+        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
+        "Optimized performance and improved loading times by implementing caching and code-splitting."
+      ],
+      "technologies": [
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/react.svg",
+          "name": "React"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nextdotjs.svg",
+          "name": "Next.js"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/node-dot-js.svg",
+          "name": "Node.js"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/api.svg",
+          "name": "REST API"
+        }
       ]
     },
     {
       "title": "Web Developer",
       "company": "Phincon",
       "period": "2021 - Now",
-      "type": "Hybrid · Fulltime",
+      "models": "Hybrid",
+      "type": "Fulltime",
       "linkText": "Check it out",
       "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
-      "techUsed": [
-        { "icon": "logos:javascript", "text": "JavaScript" },
-        { "icon": "logos:react", "text": "React" },
-        { "icon": "logos:nextjs-icon", "text": "Next.js" },
-        { "icon": "logos:nodejs-icon", "text": "Node.js" },
-        { "icon": "mdi:api", "text": "REST API" }
+      "responsibilities": [
+        "Developed and maintained scalable web applications for internal and external use.",
+        "Collaborated with UI/UX designers to implement responsive interfaces.",
+        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
+        "Optimized performance and improved loading times by implementing caching and code-splitting."
+      ],
+      "technologies": [
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/react.svg",
+          "name": "React"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nextdotjs.svg",
+          "name": "Next.js"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/node-dot-js.svg",
+          "name": "Node.js"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/api.svg",
+          "name": "REST API"
+        }
       ]
     },
     {
       "title": "Lead Dev",
       "company": "Mambix",
       "period": "2021 - 2025",
-      "type": "Hybrid · Fulltime",
+      "models": "Hybrid",
+      "type": "Fulltime",
       "linkText": "Check it out",
-      "description": "Led a team of developers in designing and implementing scalable backend systems, improving deployment processes, and mentoring junior engineers.",
-      "techUsed": [
-        { "icon": "logos:nodejs-icon", "text": "Node.js" },
-        { "icon": "logos:postgresql", "text": "PostgreSQL" },
-        { "icon": "logos:docker-icon", "text": "Docker" },
-        { "icon": "material-symbols:settings-ci-cd-outline", "text": "CI/CD" },
-        { "icon": "material-symbols:agile", "text": "Agile" }
+      "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
+      "responsibilities": [
+        "Developed and maintained scalable web applications for internal and external use.",
+        "Collaborated with UI/UX designers to implement responsive interfaces.",
+        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
+        "Optimized performance and improved loading times by implementing caching and code-splitting."
+      ],
+      "technologies": [
+        {
+          "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000",
+          "name": "React"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+          "name": "Next.js"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
+          "name": "Node.js"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=21888&format=png&color=000000",
+          "name": "REST API"
+        }
       ]
     }
   ],
@@ -151,23 +239,83 @@
   "projects": [
     {
       "title": "SSGI 2024",
-      "description": "A single lite project can elevate the skill of a person",
-      "media": "/media1.png"
+      "period": "2023 - 2024",
+      "summary": "A single lite project can elevate the skill of a person",
+      "goals": "Build a lightweight, impactful web project demonstrating full-stack proficiency.",
+      "takeaways": "Strengthened ability to scope, develop, and deploy solo projects with clear user value.",
+      "media": "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        }
+      ]
     },
     {
-      "title": "Portfolio Rebuild",
-      "description": "Modern stack portfolio with animations and responsive design",
-      "media": "/media2.png"
+      "title": "My Portfolio 1",
+      "period": "2021 - 2023",
+      "summary": "Lorem ipsum ipsum orci eget neque consectetur odio amet elementum at tristique pretium urna facilisis pellentesque augue aenean lacinia aliquet ipsum est blandit pellentesque eget condimentum tempus aliquam quam tempor.",
+      "goals": "Lorem ipsum ipsum orci eget neque consectetur odio amet elementum at tristique pretium urna.",
+      "takeaways": "Lorem ipsum ipsum orci eget neque consectetur odio amet elementum at tristique pretium urna facilisis pellentesque augue aenean lacinia aliquet ipsum est blandit pellentesque eget condimentum tempus aliquam quam tempor.",
+      "media": "https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg",
+      "technologies": [
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "PHP",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+        },
+        {
+          "name": "Python",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        }
+      ]
     },
     {
-      "title": "AI Chatbot",
-      "description": "A smart assistant trained on company data",
-      "media": "/media3.png"
+      "title": "Weather App",
+      "period": "2022",
+      "summary": "Built a simple but effective real-time weather application using public APIs.",
+      "goals": "Learn API consumption, error handling, and UI responsiveness in React.",
+      "takeaways": "Gained understanding of asynchronous API calls, error states, and clean UI design principles.",
+      "media": "https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "TailwindCSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        }
+      ]
     },
     {
-      "title": "E-commerce App",
-      "description": "A full-featured app with payment and admin dashboard",
-      "media": "/media4.png"
+      "title": "E-commerce Dashboard",
+      "period": "2023",
+      "summary": "A dashboard built for small businesses to manage their online sales and inventory.",
+      "goals": "Provide store owners with real-time insights and order management tools.",
+      "takeaways": "Improved backend integration skills and UI state management in modern SPAs.",
+      "media": "https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        },
+        {
+          "name": "Chart.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        }
+      ]
     }
   ]
 }
