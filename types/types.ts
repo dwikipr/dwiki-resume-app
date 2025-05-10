@@ -35,15 +35,15 @@ interface QuoteOfTheDay {
   author: string;
 }
 
-interface Stack {
+interface StackContent {
   icon: string;
-  text: string;
+  name: string;
   level: string;
 }
 
-interface Stacks {
-  languages: Stack[];
-  frameworks: Stack[];
+interface Stack {
+  type: string;
+  content: StackContent[];
 }
 
 interface ProjectTechnology {
@@ -68,6 +68,6 @@ interface ResumeData {
   summary: string;
   experiences: Experience[];
   quoteOfTheDay: QuoteOfTheDay[];
-  stacks: Stacks;
+  stacks: Stack[];
   projects: Project[];
 }

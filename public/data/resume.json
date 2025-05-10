@@ -15,18 +15,18 @@
   "summary": "I'm a Fullstack Web Developer with over 3 years of experience creating dynamic, user-friendly, and scalable web applications. I'm passionate about building seamless digital experiences and solving real-world problems through clean, efficient code.",
   "experiences": [
     {
-      "title": "Web Developer",
+      "title": "Web Developer - Consultant",
       "company": "Phincon",
       "period": "2021 - Now",
       "models": "Hybrid",
       "type": "Fulltime",
       "linkText": "Check it out",
-      "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
+      "description": "I was employed at PhinCon (Phintraco Consulting), an IT consulting firm known for delivering top-tier, comprehensive IT solutions and support products. My duties involved creating and sustaining high-quality web applications, covering both front-end and back-end development, along with some DevOps responsibilities.",
       "responsibilities": [
-        "Developed and maintained scalable web applications for internal and external use.",
-        "Collaborated with UI/UX designers to implement responsive interfaces.",
-        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
-        "Optimized performance and improved loading times by implementing caching and code-splitting."
+        "Collaborated with both internal and external teams to ensure projects progressed as planned.",
+        "As part of the DevOps team, managed the Dockerization of the web UI to facilitate seamless service migration and deployment.",
+        "Enhanced performance and strengthened web security through the implementation of code obfuscation and splitting techniques.",
+        "Integrated RESTful APIs to optimize data exchange between the frontend and backend, ensuring efficient handling of diverse data sets for expected responses."
       ],
       "technologies": [
         {
@@ -38,25 +38,37 @@
           "name": "React"
         },
         {
-          "icon": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
-          "name": "Next.js"
-        },
-        {
           "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
           "name": "Node.js"
         },
         {
+          "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
+          "name": "Express Js"
+        },
+        {
           "icon": "https://img.icons8.com/?size=100&id=21888&format=png&color=000000",
           "name": "REST API"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+          "name": "Docker"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+          "name": "AWS"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000",
+          "name": "Jenkins"
         }
       ]
     },
     {
-      "title": "Lead Dev",
+      "title": "Developer",
       "company": "Mambix",
-      "period": "2021 - 2025",
-      "models": "Hybrid",
-      "type": "Fulltime",
+      "period": "2020 - 2021",
+      "models": "Remote",
+      "type": "Freelance",
       "linkText": "Check it out",
       "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
       "responsibilities": [
@@ -205,37 +217,173 @@
       "author": "Lao Tzu"
     }
   ],
-  "stacks": {
-    "languages": [
-      {
-        "icon": "logos:javascript",
-        "text": "JavaScript",
-        "level": "Advance"
-      },
-      {
-        "icon": "logos:php",
-        "text": "PHP",
-        "level": "Beginner"
-      },
-      {
-        "icon": "logos:python",
-        "text": "Python",
-        "level": "Beginner"
-      }
-    ],
-    "frameworks": [
-      {
-        "icon": "logos:react",
-        "text": "ReactJS",
-        "level": "Advance"
-      },
-      {
-        "icon": "logos:nextjs-icon",
-        "text": "NextJS",
-        "level": "Advance"
-      }
-    ]
-  },
+  "stacks": [
+    {
+      "type": "languages",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/color/100/javascript.png",
+          "name": "JavaScript",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/officel/100/php-logo.png",
+          "name": "PHP",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/python.png",
+          "name": "Python",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/typescript.png",
+          "name": "TypeScript",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000",
+          "name": "Dart",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "type": "Frontend Frameworks",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/officel/100/react.png",
+          "name": "ReactJS",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+          "name": "NextJS",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/vue-js.png",
+          "name": "Vue.js",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "type": "Backend Frameworks",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/color/100/nodejs.png",
+          "name": "Node.js",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
+          "name": "Express.js",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000",
+          "name": "NestJS",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/ios-filled/100/laravel.png",
+          "name": "Laravel",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "type": "Databases",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/color/100/mongodb.png",
+          "name": "MongoDB",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/mysql-logo.png",
+          "name": "MySQL",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/postgreesql.png",
+          "name": "PostgreSQL",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/redis.png",
+          "name": "Redis",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "type": "DevOps Tools",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/color/100/docker.png",
+          "name": "Docker",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/kubernetes.png",
+          "name": "Kubernetes",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/jenkins.png",
+          "name": "Jenkins",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "type": "Cloud Platforms",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/color/100/amazon-web-services.png",
+          "name": "AWS",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/google-cloud-platform.png",
+          "name": "GCP",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/color/100/heroku.png",
+          "name": "Heroku",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "content": [
+        {
+          "icon": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000",
+          "name": "Figma",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000",
+          "name": "Jira",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+          "name": "Git",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=MU45yL8cD9cF&format=png&color=000000",
+          "name": "MIRO",
+          "level": "Beginner"
+        }
+      ]
+    }
+  ],
   "projects": [
     {
       "title": "SSGI 2024",

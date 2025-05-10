@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Card from './Card';
-import QuoteContent from './QuoteContent';
-import ExperienceContent from './ExperienceContent';
-import StackContent from './StackContent';
-import AboutContent from './AboutContent';
-import ProjectContent from './ProjectContent';
-import ExperienceModal from './ExperienceModal';
-import { motion, AnimatePresence } from 'motion/react';
-import ProjectModal from './ProjectModal';
+import React, { useState } from "react";
+import Card from "./Card";
+import QuoteContent from "./QuoteContent";
+import ExperienceContent from "./ExperienceContent";
+import StackContent from "./StackContent";
+import AboutContent from "./AboutContent";
+import ProjectContent from "./ProjectContent";
+import ExperienceModal from "./ExperienceModal";
+import { motion, AnimatePresence } from "motion/react";
+import ProjectModal from "./ProjectModal";
 
 interface ContentsProps {
   data: ResumeData;
@@ -38,7 +38,7 @@ const Contents: React.FC<ContentsProps> = ({ data }) => {
 
   const cards = [
     {
-      title: 'My Experience',
+      title: "My Experience",
       content: (
         <ExperienceContent
           experiences={data.experiences}
@@ -47,13 +47,13 @@ const Contents: React.FC<ContentsProps> = ({ data }) => {
       ),
     },
     {
-      title: 'Quote of the Day',
+      title: "Quote of the Day",
       content: <QuoteContent quotes={data.quoteOfTheDay} />,
     },
-    { title: 'My Stacks', content: <StackContent /> },
-    { title: 'About Me', content: <AboutContent data={data} /> },
+    { title: "My Stacks", content: <StackContent data={data.stacks} /> },
+    { title: "About Me", content: <AboutContent data={data} /> },
     {
-      title: 'My Projects',
+      title: "My Projects",
       content: (
         <ProjectContent
           projects={data.projects}
@@ -73,12 +73,12 @@ const Contents: React.FC<ContentsProps> = ({ data }) => {
           return (
             <motion.div
               key={index}
-              className={`w-full ${shouldStretch ? 'md:col-span-2' : ''}`}
+              className={`w-full ${shouldStretch ? "md:col-span-2" : ""}`}
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                ease: 'easeOut',
+                ease: "easeOut",
                 delay: index * 0.1,
               }} // Adds a stagger effect
             >

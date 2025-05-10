@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 interface HeadersProps {
   data: ResumeData;
@@ -12,7 +12,12 @@ const Headers: React.FC<HeadersProps> = ({ data }) => {
     <div className="flex flex-row px-4 md:px-8 justify-between w-full">
       <div className="flex flex-row items-center gap-4">
         <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
-        <p className="font-semibold underline">dwiki.prsty@gmail.com</p>
+        <a
+          href="mailto:dwiki.prsty@gmail.com"
+          className="font-semibold underline"
+        >
+          dwiki.prsty@gmail.com
+        </a>
       </div>
       <div className="relative"></div>
     </div>
