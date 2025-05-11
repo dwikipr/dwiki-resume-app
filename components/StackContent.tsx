@@ -1,6 +1,5 @@
-import React from "react";
-import { FaJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
+/* eslint-disable @next/next/no-img-element */
+import React from 'react';
 
 interface StackProps {
   data: Stack[];
@@ -22,7 +21,7 @@ const renderStack = (items: StackContent[]) =>
 const StackContent: React.FC<StackProps> = ({ data }) => {
   return (
     <div className="space-y-4 text-sm text-black">
-      {data.map((stk: Stack, idx) => (
+      {data.map((stk: Stack) => (
         <div key={stk.type}>
           <h4 className="font-semibold mb-2">{stk.type}</h4>
           <div className="flex flex-wrap gap-2">{renderStack(stk.content)}</div>
