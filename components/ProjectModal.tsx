@@ -27,7 +27,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
         animate={{ scale: 1, opacity: 1, filter: 'blur(0px)' }}
         exit={{ scale: 0.9, opacity: 0, filter: 'blur(5px)' }}
         transition={{ duration: 0.3, ease: 'easeInOut' }}
-        className="relative w-full max-w-4xl p-6 bg-white/80 border border-white/20 backdrop-blur-lg text-black rounded-2xl shadow-lg"
+        className="relative w-full max-h-svh max-w-4xl p-6 bg-white/80 border border-white/20 backdrop-blur-lg text-black rounded-2xl shadow-lg"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -36,15 +36,27 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
         >
           <FaTimes className="text-black" />
         </button>
-        <div className="flex flex-col md:flex-row gap-6">
+        <div className="flex flex-col md:flex-row gap-6 max-h-[90svh] overflow-y-scroll">
           {/* Left side image and summary */}
           <div className="flex-1 space-y-4">
-            <div className="w-full aspect-video rounded-xl bg-gray-300 overflow-hidden">
-              <img
-                src={selectedProject.media}
-                alt={selectedProject.title}
-                className="w-full h-full object-cover"
-              />
+            <div className="w-full aspect-auto rounded-xl bg-gray-300 overflow-hidden">
+              {selectedProject.mediaType === 'videos' ? (
+                <video
+                  src={selectedProject.media}
+                  title={selectedProject.title}
+                  className="w-full h-full object-cover"
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                />
+              ) : (
+                <img
+                  src={selectedProject.media}
+                  alt={selectedProject.title}
+                  className="w-full h-full object-cover"
+                />
+              )}
             </div>
             <p className="text-sm text-black/70">{selectedProject.summary}</p>
           </div>

@@ -58,6 +58,7 @@ interface Project {
   goals: string;
   takeaways: string;
   media: string;
+  mediaType: 'videos' | 'images';
   technologies: ProjectTechnology[];
 }
 

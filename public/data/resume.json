@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Dwiki Prastyo",
-    "email": "dwiki.prsty@gmail.com",
+    "email": "contact@dwikipras.com",
     "title": "Fullstack Web Developer",
     "company": "Phincon",
     "status": "Open to Work"
@@ -17,13 +17,13 @@
     {
       "title": "Web Developer - Consultant",
       "company": "Phincon",
-      "period": "2021 - Now",
+      "period": "Dec 2021 - Now",
       "models": "Hybrid",
       "type": "Fulltime",
       "linkText": "Check it out",
       "description": "I was employed at PhinCon (Phintraco Consulting), an IT consulting firm known for delivering top-tier, comprehensive IT solutions and support products. My duties involved creating and sustaining high-quality web applications, covering both front-end and back-end development, along with some DevOps responsibilities.",
       "responsibilities": [
-        "Collaborated with both internal and external teams to ensure projects progressed as planned.",
+        "Utilize expertise in UI Designs to formulate and implement high-quality, responsive web solutions using the scrum methodology.",
         "As part of the DevOps team, managed the Dockerization of the web UI to facilitate seamless service migration and deployment.",
         "Enhanced performance and strengthened web security through the implementation of code obfuscation and splitting techniques.",
         "Integrated RESTful APIs to optimize data exchange between the frontend and backend, ensuring efficient handling of diverse data sets for expected responses."
@@ -36,6 +36,14 @@
         {
           "icon": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000",
           "name": "React"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=QBqFNfPPB2Kx&format=png&color=000000",
+          "name": "SASS/SCSS"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000",
+          "name": "Redux Saga"
         },
         {
           "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
@@ -60,22 +68,25 @@
         {
           "icon": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000",
           "name": "Jenkins"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000",
+          "name": "Jira"
         }
       ]
     },
     {
-      "title": "Developer",
-      "company": "Mambix",
-      "period": "2020 - 2021",
+      "title": "Fullstack Web Developer",
+      "company": "Kognitif",
+      "period": "May 2021 - Aug 2021",
       "models": "Remote",
       "type": "Freelance",
       "linkText": "Check it out",
-      "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
+      "description": "Developed a fast and responsive web application used in an accounting competition organized by UNS students, focusing on delivering seamless UI/UX and real-time database integration.",
       "responsibilities": [
-        "Developed and maintained scalable web applications for internal and external use.",
-        "Collaborated with UI/UX designers to implement responsive interfaces.",
-        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
-        "Optimized performance and improved loading times by implementing caching and code-splitting."
+        "Built and integrated login and dashboard pages using Node.js and Firestore for real-time data handling",
+        "Translated UI designs from Figma into a fully responsive interface using React.js and Tailwind CSS",
+        "Ensured cross-device compatibility and smooth performance for competition participants and judges"
       ],
       "technologies": [
         {
@@ -87,32 +98,31 @@
           "name": "React"
         },
         {
-          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nextdotjs.svg",
-          "name": "Next.js"
-        },
-        {
-          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/node-dot-js.svg",
+          "icon": "https://img.icons8.com/color/100/nodejs.png",
           "name": "Node.js"
         },
         {
-          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/api.svg",
-          "name": "REST API"
+          "icon": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+          "name": "TailwindCSS"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000",
+          "name": "Firebase"
         }
       ]
     },
     {
       "title": "Web Developer",
-      "company": "Phincon",
-      "period": "2021 - Now",
-      "models": "Hybrid",
-      "type": "Fulltime",
+      "company": "Mambix",
+      "period": "Mar 2021 - Jul 2021",
+      "models": "Remote",
+      "type": "Freelance",
       "linkText": "Check it out",
-      "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
+      "description": "Collaborated on building and maintaining an internal web platform with focus on frontend design, API integration, and UI consistency.",
       "responsibilities": [
-        "Developed and maintained scalable web applications for internal and external use.",
-        "Collaborated with UI/UX designers to implement responsive interfaces.",
-        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
-        "Optimized performance and improved loading times by implementing caching and code-splitting."
+        "Designed and implemented the login and dashboard UI based on Figma mockups",
+        "Integrated data from backend services using Axios and ensured dynamic content rendering",
+        "Improved UI layout and responsiveness across various screen sizes using SASS and CSS3"
       ],
       "technologies": [
         {
@@ -124,53 +134,24 @@
           "name": "React"
         },
         {
-          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nextdotjs.svg",
-          "name": "Next.js"
+          "icon": "https://img.icons8.com/?size=100&id=QBqFNfPPB2Kx&format=png&color=000000",
+          "name": "SASS"
         },
         {
-          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/node-dot-js.svg",
-          "name": "Node.js"
+          "icon": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000",
+          "name": "Figma"
         },
         {
-          "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/api.svg",
-          "name": "REST API"
-        }
-      ]
-    },
-    {
-      "title": "Lead Dev",
-      "company": "Mambix",
-      "period": "2021 - 2025",
-      "models": "Hybrid",
-      "type": "Fulltime",
-      "linkText": "Check it out",
-      "description": "Responsible for developing and maintaining internal and client-facing web applications, collaborating closely with cross-functional teams to deliver high-quality software solutions.",
-      "responsibilities": [
-        "Developed and maintained scalable web applications for internal and external use.",
-        "Collaborated with UI/UX designers to implement responsive interfaces.",
-        "Integrated RESTful APIs to streamline data exchange between frontend and backend.",
-        "Optimized performance and improved loading times by implementing caching and code-splitting."
-      ],
-      "technologies": [
-        {
-          "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
-          "name": "JavaScript"
+          "icon": "https://img.icons8.com/?size=100&id=13460&format=png&color=000000",
+          "name": "PHP"
         },
         {
-          "icon": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000",
-          "name": "React"
+          "icon": "https://img.icons8.com/?size=100&id=DRSgsgUum9mq&format=png&color=000000",
+          "name": "Cake PHP"
         },
         {
-          "icon": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
-          "name": "Next.js"
-        },
-        {
-          "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
-          "name": "Node.js"
-        },
-        {
-          "icon": "https://img.icons8.com/?size=100&id=21888&format=png&color=000000",
-          "name": "REST API"
+          "icon": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+          "name": "CSS3"
         }
       ]
     }
@@ -219,7 +200,7 @@
   ],
   "stacks": [
     {
-      "type": "languages",
+      "type": "Languages",
       "content": [
         {
           "icon": "https://img.icons8.com/color/100/javascript.png",
@@ -245,11 +226,16 @@
           "icon": "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000",
           "name": "Dart",
           "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=13406&format=png&color=000000",
+          "name": "SQL",
+          "level": "Beginner"
         }
       ]
     },
     {
-      "type": "Frontend Frameworks",
+      "type": "Frontend",
       "content": [
         {
           "icon": "https://img.icons8.com/officel/100/react.png",
@@ -265,11 +251,56 @@
           "icon": "https://img.icons8.com/color/100/vue-js.png",
           "name": "Vue.js",
           "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+          "name": "Tailwind CSS",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+          "name": "CSS3",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=QBqFNfPPB2Kx&format=png&color=000000",
+          "name": "SCSS/SASS",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000",
+          "name": "Bootstrap",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+          "name": "HTML5",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000",
+          "name": "Vite",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=sOWbK4N3cxGh&format=png&color=000000",
+          "name": "Webpack",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=Mh3AeBFmcOPK&format=png&color=000000",
+          "name": "ESLint",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=0umfE6N5VaVA&format=png&color=000000",
+          "name": "Prettier",
+          "level": "Advanced"
         }
       ]
     },
     {
-      "type": "Backend Frameworks",
+      "type": "Backend",
       "content": [
         {
           "icon": "https://img.icons8.com/color/100/nodejs.png",
@@ -290,6 +321,21 @@
           "icon": "https://img.icons8.com/ios-filled/100/laravel.png",
           "name": "Laravel",
           "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=21888&format=png&color=000000",
+          "name": "REST API",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=zdI5E8moxhs-&format=png&color=000000",
+          "name": "GraphQL",
+          "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000",
+          "name": "JWT",
+          "level": "Intermediate"
         }
       ]
     },
@@ -315,11 +361,16 @@
           "icon": "https://img.icons8.com/color/100/redis.png",
           "name": "Redis",
           "level": "Beginner"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=106501&format=png&color=000000",
+          "name": "Amazon S3",
+          "level": "Beginner"
         }
       ]
     },
     {
-      "type": "DevOps Tools",
+      "type": "DevOps & Deployment",
       "content": [
         {
           "icon": "https://img.icons8.com/color/100/docker.png",
@@ -335,24 +386,34 @@
           "icon": "https://img.icons8.com/color/100/jenkins.png",
           "name": "Jenkins",
           "level": "Beginner"
-        }
-      ]
-    },
-    {
-      "type": "Cloud Platforms",
-      "content": [
+        },
         {
-          "icon": "https://img.icons8.com/color/100/amazon-web-services.png",
-          "name": "AWS",
+          "icon": "https://img.icons8.com/?size=100&id=t2x6DtCn5Zzx&format=png&color=000000",
+          "name": "Nginx",
           "level": "Intermediate"
         },
         {
-          "icon": "https://img.icons8.com/color/100/google-cloud-platform.png",
-          "name": "GCP",
+          "icon": "https://img.icons8.com/?size=100&id=KZk3KfcAhxdA&format=png&color=000000",
+          "name": "PM2",
+          "level": "Intermediate"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+          "name": "AWS",
           "level": "Beginner"
         },
         {
-          "icon": "https://img.icons8.com/color/100/heroku.png",
+          "icon": "https://img.icons8.com/?size=100&id=aVM0CHwkTZGB&format=png&color=1A1A1A",
+          "name": "Vercel",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=hzW60PyegkOf&format=png&color=1A1A1A",
+          "name": "Netlify",
+          "level": "Advanced"
+        },
+        {
+          "icon": "https://img.icons8.com/?size=100&id=32343&format=png&color=1A1A1A",
           "name": "Heroku",
           "level": "Beginner"
         }
@@ -386,82 +447,107 @@
   ],
   "projects": [
     {
-      "title": "SSGI 2024",
-      "period": "2023 - 2024",
-      "summary": "A single lite project can elevate the skill of a person",
-      "goals": "Build a lightweight, impactful web project demonstrating full-stack proficiency.",
-      "takeaways": "Strengthened ability to scope, develop, and deploy solo projects with clear user value.",
-      "media": "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg",
+      "title": "Smart Anthro IoT Project",
+      "period": "2025",
+      "summary": "An IoT-based project developed for a thesis by UMY graduate students, combining multiple physical sensors to create a smart anthropometric tool called 'Smart Anthro'. The system integrates ultrasonic and load cell sensors with a Node.js REST API via MQTT protocol and connects to a mobile app built using React Native.",
+      "goals": "To build a smart anthropometry device that can accurately measure a child's height and weight, send the data to a server in real-time, and store it in a PostgreSQL database to help monitor and manage child nutrition.",
+      "takeaways": "This project was a significant challenge due to the need to coordinate hardware sensors, microcontroller programming, and real-time data communication over Wi-Fi using MQTT. The solution also required seamless integration between IoT devices, a backend API, and a mobile app for visualizing nutritional trends like underweight or overweight conditions.",
+      "media": "/videos/anthro.mp4",
+      "mediaType": "videos",
       "technologies": [
         {
-          "name": "React",
+          "name": "React Native",
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
         },
         {
           "name": "Node.js",
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        },
+        {
+          "name": "MQTT",
+          "icon": "https://github.com/mqtt/mqttorg-graphics/blob/master/png/mqtt-ver.png?raw=true"
+        },
+        {
+          "name": "Arduino",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
+        },
+        {
+          "name": "Arduino IDE",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
         }
       ]
     },
     {
-      "title": "My Portfolio 1",
-      "period": "2021 - 2023",
-      "summary": "Lorem ipsum ipsum orci eget neque consectetur odio amet elementum at tristique pretium urna facilisis pellentesque augue aenean lacinia aliquet ipsum est blandit pellentesque eget condimentum tempus aliquam quam tempor.",
-      "goals": "Lorem ipsum ipsum orci eget neque consectetur odio amet elementum at tristique pretium urna.",
-      "takeaways": "Lorem ipsum ipsum orci eget neque consectetur odio amet elementum at tristique pretium urna facilisis pellentesque augue aenean lacinia aliquet ipsum est blandit pellentesque eget condimentum tempus aliquam quam tempor.",
-      "media": "https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg",
-      "technologies": [
-        {
-          "name": "JavaScript",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-        },
-        {
-          "name": "PHP",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-        },
-        {
-          "name": "Python",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-        }
-      ]
-    },
-    {
-      "title": "Weather App",
-      "period": "2022",
-      "summary": "Built a simple but effective real-time weather application using public APIs.",
-      "goals": "Learn API consumption, error handling, and UI responsiveness in React.",
-      "takeaways": "Gained understanding of asynchronous API calls, error states, and clean UI design principles.",
-      "media": "https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg",
-      "technologies": [
-        {
-          "name": "React",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-        },
-        {
-          "name": "TailwindCSS",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-        }
-      ]
-    },
-    {
-      "title": "E-commerce Dashboard",
-      "period": "2023",
-      "summary": "A dashboard built for small businesses to manage their online sales and inventory.",
-      "goals": "Provide store owners with real-time insights and order management tools.",
-      "takeaways": "Improved backend integration skills and UI state management in modern SPAs.",
-      "media": "https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg",
+      "title": "SSGI 2024 Dashboard",
+      "period": "2024",
+      "summary": "A national-scale dashboard developed for the Indonesian Ministry of Health to visualize the results of the Survei Status Gizi Indonesia (SSGI) 2024. The platform provides comprehensive access to nutritional survey data across all provinces in Indonesia.",
+      "goals": "To build an interactive, data-driven dashboard that displays national nutritional statistics using maps, charts, and tables, and to monitor field survey progress by tracking enumerator activity and completion status across provinces.",
+      "takeaways": "This project involved integrating complex data from multiple databases (PostgreSQL and MariaDB), managing geospatial data, and ensuring smooth frontend-backend communication. It was deployed on the Ministry of Health's server using PM2 for process management.",
+      "media": "/videos/ssgi.mp4",
+      "mediaType": "videos",
       "technologies": [
         {
           "name": "Next.js",
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
         },
         {
-          "name": "MongoDB",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          "name": "Node.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
         },
         {
-          "name": "Chart.js",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          "name": "Express.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        },
+        {
+          "name": "MariaDB",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+          "name": "PM2",
+          "icon": "https://img.icons8.com/?size=100&id=KZk3KfcAhxdA&format=png&color=000000"
+        },
+        {
+          "name": "Leaflet.js (GeoMapping)",
+          "icon": "https://pbs.twimg.com/profile_images/1510602617700950021/K4IoVubu_400x400.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sarangkata - A Storytelling Platform (Unreleased - Joint Project)",
+      "period": "2023",
+      "summary": "Sarangkata is a creative storytelling platform that supports multiple story formats, including chat-based stories, chaptered narratives, and short stories. Users can write, publish, and read stories directly from the platform.",
+      "goals": "To develop a flexible and engaging storytelling web platform that empowers writers and readers to interact with various narrative formats in a modern digital environment.",
+      "takeaways": "Although the project was not completed due to business constraints, it showcased the integration of advanced frontend and backend technologies, emphasizing scalable architecture using Next.js, GraphQL, and TypeScript.",
+      "media": "/images/sarangkata.png",
+      "mediaType": "images",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "GraphQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        },
+        {
+          "name": "Apollo Client",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollo/apollo-original.svg"
         }
       ]
     }
