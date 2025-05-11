@@ -50,7 +50,6 @@ interface ProjectTechnology {
   name: string;
   icon: string;
 }
-
 interface Project {
   title: string;
   period: string;
@@ -58,7 +57,7 @@ interface Project {
   goals: string;
   takeaways: string;
   media: string;
-  mediaType: 'videos' | 'images';
+  mediaType: string;
   technologies: ProjectTechnology[];
 }
 
