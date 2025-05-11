@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface QuotesProps {
   quotes: QuoteOfTheDay[];
@@ -19,7 +19,7 @@ const Quote: React.FC<QuotesProps> = ({ quotes }) => {
 
   return (
     <div className="text-left space-y-4">
-      <p className="text-xl mb-4">"{dailyQuote.text}"</p>
+      <p className="text-xl mb-4">&quot;{dailyQuote.text}&quot;</p>
       <p className="text-sm italic">— {dailyQuote.author}</p>
     </div>
   );
