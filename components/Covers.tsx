@@ -13,6 +13,15 @@ const Covers: React.FC<CoversProps> = ({ data }) => {
     visible: { opacity: 1, x: 0 },
   };
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/data/cv.pdf';
+    link.setAttribute('download', 'cv.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="flex flex-col p-4 md:p-8 gap-6 md:gap-10 w-full h-fit">
       <div className="flex flex-col gap-2 md:gap-6">
@@ -72,6 +81,7 @@ const Covers: React.FC<CoversProps> = ({ data }) => {
           animate="visible"
           transition={{ duration: 0.5, delay: 0.6 }}
           variants={textVariants}
+          onClick={handleDownloadCV}
         >
           {data.actions.resume}
         </motion.button>
