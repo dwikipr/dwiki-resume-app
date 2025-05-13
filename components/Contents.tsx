@@ -10,6 +10,7 @@ import ProjectContent from './ProjectContent';
 import ExperienceModal from './ExperienceModal';
 import { motion, AnimatePresence } from 'motion/react';
 import ProjectModal from './ProjectModal';
+import { track } from '@vercel/analytics';
 
 interface ContentsProps {
   data: ResumeData;
@@ -29,6 +30,11 @@ const Contents: React.FC<ContentsProps> = ({ data }) => {
   };
 
   const handleProjectOpen = (project: Project) => {
+    track('view_project', {
+      category: 'User Actions',
+      label: 'View Project Details',
+      value: selectedProject?.title || 'default',
+    });
     setSelectedProject(project);
   };
 

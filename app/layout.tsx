@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { DM_Sans } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
 const dmSans = DM_Sans({
@@ -22,7 +23,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${dmSans.variable} antialiased`}>{children}</body>
+      <body className={`${dmSans.variable} antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

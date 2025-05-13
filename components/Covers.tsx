@@ -1,5 +1,6 @@
 'use client';
 
+import { track } from '@vercel/analytics';
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 
@@ -16,6 +17,13 @@ const Covers: React.FC<CoversProps> = ({ data }) => {
 
   const handleDownloadCV = () => {
     setIsDownloading(true);
+
+    track('download_cv', {
+      category: 'User Actions',
+      label: 'Download CV Button',
+      value: 1,
+    });
+
     const link = document.createElement('a');
     link.href = '/data/cv.pdf';
     link.setAttribute('download', 'cv.pdf');
