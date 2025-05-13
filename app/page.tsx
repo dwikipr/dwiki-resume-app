@@ -1,5 +1,6 @@
 import Contents from '@/components/Contents';
 import Covers from '@/components/Covers';
+import Footer from '@/components/Footer';
 import Headers from '@/components/Headers';
 import resumeData from '@/public/data/resume.json';
 
@@ -13,6 +14,8 @@ export default async function Home() {
       <Covers data={resumeData} />
       {/* CONTENTS */}
       <Contents data={resumeData} />
+      {/* FOOTER */}
+      <Footer data={resumeData} />
     </div>
   );
 }

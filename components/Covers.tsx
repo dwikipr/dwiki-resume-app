@@ -1,25 +1,31 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import React from 'react';
+import React, { useState } from 'react';
 
 interface CoversProps {
   data: ResumeData;
 }
 
 const Covers: React.FC<CoversProps> = ({ data }) => {
+  const [isDownloading, setIsDownloading] = useState(false);
   const textVariants = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 0 },
   };
 
   const handleDownloadCV = () => {
+    setIsDownloading(true);
     const link = document.createElement('a');
     link.href = '/data/cv.pdf';
     link.setAttribute('download', 'cv.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+
+    setTimeout(() => {
+      setIsDownloading(false);
+    }, 2000);
   };
 
   return (
@@ -76,14 +82,20 @@ const Covers: React.FC<CoversProps> = ({ data }) => {
 
       <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6">
         <motion.button
-          className="py-3 md:py-4 px-5 md:px-6 bg-black text-white rounded-full text-lg md:text-xl font-semibold cursor-pointer"
+          className={`py-3 md:py-4 px-5 md:px-6 bg-black text-white rounded-full text-lg md:text-xl font-semibold cursor-pointer ${
+            isDownloading ? 'cursor-not-allowed bg-gray-300' : ''
+          }`}
           initial="hidden"
           animate="visible"
           transition={{ duration: 0.5, delay: 0.6 }}
           variants={textVariants}
           onClick={handleDownloadCV}
+          disabled={isDownloading}
         >
-          {data.actions.resume}
+          {data.actions.resume}{' '}
+          {isDownloading && (
+            <span className="loading loading-spinner loading-md"></span>
+          )}
         </motion.button>
 
         <motion.div
