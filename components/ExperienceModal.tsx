@@ -37,7 +37,7 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({
           <FaTimes className="text-black" />
         </button>
 
-        <div className="max-h-[90svh] overflow-y-scroll">
+        <div className="max-h-[90svh] overflow-y-scroll md:overflow-hidden">
           <h2 className="text-xl font-semibold mb-2">
             {selectedExperience.title} at {selectedExperience.company}
           </h2>

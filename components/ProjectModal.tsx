@@ -36,7 +36,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
         >
           <FaTimes className="text-black" />
         </button>
-        <div className="flex flex-col md:flex-row gap-6 max-h-[90svh] overflow-y-scroll">
+        <div className="flex flex-col md:flex-row gap-6 max-h-[90svh] overflow-y-scroll md:overflow-hidden">
           {/* Left side image and summary */}
           <div className="flex-1 space-y-4">
             <div className="w-full aspect-auto rounded-xl bg-gray-300 overflow-hidden">

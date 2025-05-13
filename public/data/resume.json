@@ -550,6 +550,25 @@
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollo/apollo-original.svg"
         }
       ]
+    },
+    {
+      "title": "Handayani Fiber Landing Page",
+      "period": "2023",
+      "summary": "A responsive landing page built to promote Handayani Fiber, a local internet service provider. The website features service highlights and a registration form integrated with WhatsApp for direct customer communication.",
+      "goals": "To create a clean, mobile-friendly promotional site that allows potential customers to quickly learn about Handayani Fiber's internet services and easily submit inquiries through WhatsApp.",
+      "takeaways": "This project emphasized the importance of user-centric UI/UX for conversion-driven landing pages. Integrating seamless WhatsApp communication improved customer interaction and lead generation.",
+      "media": "/images/handayani-fiber.png",
+      "mediaType": "images",
+      "technologies": [
+        {
+          "name": "React.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "TailwindCSS",
+          "icon": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
+        }
+      ]
     }
   ]
 }
