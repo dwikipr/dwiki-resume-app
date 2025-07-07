@@ -2,9 +2,9 @@
   "profile": {
     "name": "Dwiki Prastyo",
     "email": "contact@dwikipras.com",
-    "title": "Fullstack Web Developer",
-    "company": "Phincon",
-    "status": "Open to Work"
+    "title": "Fullstack Developer",
+    "company": "DAnS Multi Pro",
+    "status": ""
   },
   "actions": {
     "resume": "Download Resume",
@@ -12,7 +12,7 @@
     "connect": "— I'd love to connect!",
     "getInTouch": "Get in Touch"
   },
-  "summary": "I'm a Fullstack Web Developer with over 3 years of experience creating dynamic, user-friendly, and scalable web applications. I'm passionate about building seamless digital experiences and solving real-world problems through clean, efficient code.",
+  "summary": "I'm a Fullstack Developer with over 3 years of experience creating dynamic, user-friendly, and scalable web applications. I'm passionate about building seamless digital experiences and solving real-world problems through clean, efficient code.",
   "experiences": [
     {
       "title": "Web Developer - Consultant",
